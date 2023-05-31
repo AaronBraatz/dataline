@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "dataline"
+version = "0.1.0"
+description = "Generell setup to process data."
+authors = ["Aaron Braatz <aaron_br@hotmail.de>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+flake8 = "^6.0.0"
+tox = "^4.5.2"
+mypy = "^1.3.0"
+pre-commit = "^3.3.2"
+flake8-black = "^0.3.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+skip-string-normalization = true
