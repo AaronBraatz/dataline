@@ -8,3 +8,5 @@ https://www.youtube.com/watch?v=DhUpxWjOhME
 https://www.youtube.com/watch?v=psjz6rwzMdk
 ## Linter
 https://sbarnea.com/lint/black/
+## documentation
+sphinx
